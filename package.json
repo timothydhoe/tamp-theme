@@ -1,0 +1,41 @@
+{
+  "name": "tamp",
+  "displayName": "Tamp",
+  "description": "A trilogy of cinematic dark themes: Vanguard Outpost, Lunar Lobby, and Space Rumours.",
+  "version": "0.6.1",
+  "publisher": "timothydhoe",
+  "homepage": "https://github.com/timothydhoe/tamp",
+  "author": "your-name",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timothydhoe/tamp"
+  },
+  "bugs": {
+    "url": "https://github.com/timothydhoe/tamp/issues"
+  },
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Themes"],
+  "keywords": ["theme", "dark", "warm", "espresso", "monochrome", "cinematic"],
+  "galleryBanner": { "color": "#1A1518", "theme": "dark" },
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tamp: Vanguard Outpost",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vanguard-outpost.json"
+      },
+      {
+        "label": "Tamp: Lunar Lobby",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lunar-lobby.json"
+      },
+      {
+        "label": "Tamp: Space Rumours",
+        "uiTheme": "vs-dark",
+        "path": "./themes/space-rumours.json"
+      }
+    ]
+  }
+}
