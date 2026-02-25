@@ -1,6 +1,6 @@
 # Tamp
 
-Moved to [https://github.com/tamp-workshop](Moved to https://github.com/tamp-workshop)
+Moved to [https://github.com/tamp-workshop](https://github.com/tamp-workshop)
 
 **Six cinematic dark themes for VS Code.**  
 *Built for the long-distance developer. Focused. Lived-in. Tactical.*
