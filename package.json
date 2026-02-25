@@ -1,31 +1,32 @@
 {
   "name": "tamp",
   "displayName": "Tamp",
-  "description": "A trilogy of cinematic dark themes: Vanguard Outpost, Lunar Lobby, and Space Rumours.",
-  "version": "0.6.1",
-  "publisher": "timothydhoe",
-  "homepage": "https://github.com/timothydhoe/tamp",
-  "author": "your-name",
+  "description": "Six cinematic dark themes: three identities, night and day.",
+  "version": "1.0.0",
+  "publisher": "tamp-theme",
   "icon": "icon.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/timothydhoe/tamp"
+  "engines": {
+    "vscode": "^1.85.0"
   },
-  "bugs": {
-    "url": "https://github.com/timothydhoe/tamp/issues"
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "warm",
+    "espresso",
+    "monochrome",
+    "cinematic",
+    "ergonomic"
+  ],
+  "galleryBanner": {
+    "color": "#26201E",
+    "theme": "dark"
   },
-  "engines": { "vscode": "^1.85.0" },
-  "categories": ["Themes"],
-  "keywords": ["theme", "dark", "warm", "espresso", "monochrome", "cinematic"],
-  "galleryBanner": { "color": "#1A1518", "theme": "dark" },
   "license": "MIT",
   "contributes": {
     "themes": [
-      {
-        "label": "Tamp: Vanguard Outpost",
-        "uiTheme": "vs-dark",
-        "path": "./themes/vanguard-outpost.json"
-      },
       {
         "label": "Tamp: Lunar Lobby",
         "uiTheme": "vs-dark",
@@ -35,6 +36,26 @@
         "label": "Tamp: Space Rumours",
         "uiTheme": "vs-dark",
         "path": "./themes/space-rumours.json"
+      },
+      {
+        "label": "Tamp: Vanguard Outpost",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vanguard-outpost.json"
+      },
+      {
+        "label": "Tamp: Lunar Lobby \u00b7 Day",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lunar-lobby-day.json"
+      },
+      {
+        "label": "Tamp: Space Rumours \u00b7 Day",
+        "uiTheme": "vs-dark",
+        "path": "./themes/space-rumours-day.json"
+      },
+      {
+        "label": "Tamp: Vanguard Outpost \u00b7 Day",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vanguard-outpost-day.json"
       }
     ]
   }
